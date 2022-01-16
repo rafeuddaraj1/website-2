@@ -1,0 +1,436 @@
+@media (max-width:1200px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .header-section .header-logo .logo a img {
+        height: 50px;
+    }
+    .header-section .header-logo .logo a span {
+        font-size: 25px;
+    }
+    .menu ul {
+        margin-left: 10px;
+    }
+    .appAmp-title h2 {
+        font-size: 50px;
+    }
+    .blog-content .blog-content-item .blog-image img {
+        width: 290px;
+        border-radius: 5px 0 0 5px;
+        margin-bottom: -3px;
+    }
+    .blog-content .blog-content-item .blog-text p {
+        font-size: 14px;
+    }
+    .blog-content .blog-content-item .blog-text h4 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 1082px) {
+    .services-content h4 {
+        font-size: 20px;
+    }
+    .services-content p {
+        font-size: 17px;
+    }
+    .services-icon span {
+        font-size: 33px;
+        height: 107px;
+    }
+    .feedback-content .feedback-content-item p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width:992px) {
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .header-section .header-logo .logo a img {
+        height: 55px;
+    }
+    .header-section .header-logo .logo a span {
+        font-size: 30px;
+    }
+    .header-menu {
+        width: 100%;
+        margin-top: 35px;
+    }
+    .header-btn {
+        width: inherit;
+        position: absolute;
+        bottom: 11px;
+        right: 20px;
+    }
+    .mobile-menu {
+        display: block;
+        font-size: 40px;
+        color: #6278df;
+    }
+    .menu ul {
+        display: none;
+    }
+    .video-content-left h2 {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+    .video-content-left p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .appAmp-title h2 {
+        font-size: 40px;
+    }
+    .appAmp-title p {
+        font-size: 26px;
+    }
+
+    .services-box {
+        width: 48%;
+    }
+    .services-box:nth-child(3n+3) {
+        margin-right:2%;
+    }
+    .services-box:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    .pricing-tables .table-items .table-item .table-body ul li {
+        font-size: 17.8px;
+    }
+    .pricing-tables .table-items .table-item .table-body ul li span {
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .blog-image.left {
+        width: 100%;
+    }
+    .blog-content .blog-content-item .blog-image img {
+        width: 100%;
+    }
+    .blog-content .blog-content-item .blog-image {
+        margin-right: 4%;
+        margin-bottom: 22px;
+    }
+    .blog-content .blog-content-item .blog-text h4 {
+        font-size: 24px;
+    }
+    .blog-content .blog-content-item .blog-text p {
+        font-size: 18px;
+    }
+
+    .feedback-content .feedback-content-item p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .feedback-content-item::after {
+        left: 14%;
+        top: 14%;
+        font-size: 45px;
+    }
+
+    .blog-title .appAmp-title p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .blog-title .appAmp-title h2 {
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width:899px){
+
+    .pricing-tables .table-items .table-item .table-body ul li {
+        font-size: 13px;
+    }
+    .pricing-tables .table-items .table-item .table-body ul li span {
+        font-size: 16px;
+    }
+    .table-btn .default-btn {
+        font-size: 18px;
+    }
+
+    .blog-title .appAmp-title p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+
+
+@media (max-width:762px) {
+    .banner-section {
+        padding: 120px 0;
+    }
+    .banner-content h4 {
+        font-size: 25px;
+    }
+    .banner-content h1 {
+        font-size: 40px;
+    }
+    .default-btn {
+        padding: 12px 10px;
+        border-radius: 5px;
+    }
+    .video-left {
+        width: 100% !important;
+    }
+    .video-content-left {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .appAmp-title h2 {
+        font-size: 30px;
+    }
+    .appAmp-title p {
+        font-size: 20px;
+    }
+    .services-title {
+        margin-bottom: 70px;
+    }
+
+    .services-box {
+        width: 100%;
+    }
+    .services-icon span {
+        font-size: 70px;
+    }
+    .services-icon.left.w-20 {
+        margin-right: 11px;
+    }
+    .services-content h4 {
+        margin-bottom: 5px;
+    }
+
+    .pricing-tables .table-items {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .pricing-tables .table-items .table-item .table-body ul li {
+        font-size: 30px;
+    }
+    .pricing-tables .table-items .table-item .table-body ul li span {
+        font-size: 34px;
+        margin-right: 20px;
+    }
+    .table-btn .default-btn {
+        font-size: 30px;
+    }
+
+    .member-items .member-item {
+        width: 49%;
+        margin-bottom: 30px;
+    }
+    .member-items .member-item:nth-of-type(2n+2) {
+        margin-right: 0px;
+    }
+    .form-control {
+        width: 280px;
+    }
+    .testimonial-form form .default-btn {
+        width: 200px;
+        padding: 14px 0;
+    }
+
+    .feedback-content {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .feedback-content-item::after {
+        left: 5%;
+        top: 14%;
+        font-size: 68px;
+    }
+
+    .feedback-content .feedback-content-item p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .w-48.form-control.left {
+        width: 100% !important;
+    }
+    .w-48.form-control.right {
+        width: 100% !important;
+    }
+    .contact-form .form form textarea.form-control {
+        height: 120px;
+    }
+
+}
+
+@media (max-width:640px) {
+    .banner-content h4 {
+        font-size: 20px;
+    }
+    .banner-content h1 {
+        font-size: 35px;
+    }
+    .default-btn {
+        width: 100%;
+        margin: 0 !important;
+        margin-top: 15px !important;
+    }
+    .appAmp-title h2 {
+        font-size: 25px;
+    }
+    .appAmp-title p {
+        font-size: 18px;
+    }
+    .services-title {
+        margin-bottom: 60px;
+    }
+
+    .services-icon.left.w-20 {
+        margin-right: 20px;
+    }
+    .services-content h4 {
+        margin-bottom: 5px;
+    }
+
+    .services-icon.left.w-20 {
+        margin-right: 30px;
+    }
+    .services-content p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .pricing-tables .table-items .table-item .table-body ul li {
+        font-size: 24px;
+    }
+    .pricing-tables .table-items .table-item .table-body ul li span {
+        font-size: 28px;
+    }
+    .pricing-tables .table-items .table-heading h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+    }
+
+    .member-items .member-item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .form-control {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .testimonial-form form .default-btn {
+        width: 100%;
+    }
+    .blog-content .blog-content-item .blog-text h4 {
+        font-size: 18px;
+    }
+    .blog-content .blog-content-item .blog-text p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .blog-content.left.w-48 {
+        width: 100% !important;
+        margin-bottom: 40px;
+    }
+    .contact-form .form form .form-control {
+        height: 50px;
+    }
+    .map-section.left.w-48 {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .contact-form.right.w-48 {
+        width: 100% !important;
+    }
+    .contact-section {
+        padding: 20px 0;
+    }
+
+    .blog-title {
+        margin-bottom: 10px;
+    }
+    .blog-title .appAmp-title h2 {
+        font-size: 32px;
+        margin-top: 25px;
+    }
+    .blog-title .appAmp-title p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width:400px) {
+    .services-icon span {
+        font-size: 50px;
+    }
+    .services-content h4 {
+        font-size: 16px;
+    }
+    .services-content p {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .services-section {
+        padding: 20px 0;
+    }
+    .pricing-tables .table-items .table-item .table-body ul li {
+        font-size: 21px;
+    }
+    .pricing-tables .table-items .table-item .table-body ul li span {
+        font-size: 25px;
+    }
+    .table-btn .default-btn {
+        font-size: 21px;
+    }
+
+    .feedback-content .feedback-content-item p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .feedback-content-item::after {
+        left: 18%;
+        top: 13%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width:360px) {
+    .header-section .header-logo .logo a img {
+        height: 46px;
+    }
+    .header-section .header-logo .logo a span {
+        font-size: 25px;
+    }
+    .banner-content h4 {
+        font-size: 18px;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+    }
+    .appAmp-title h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .appAmp-title p {
+        font-size: 13px;
+    }
+    .services-title {
+        margin-bottom: 50px;
+    }
+
+    .pricing-tables .table-items .table-item .table-body ul li {
+        font-size: 16px;
+    }
+    .pricing-tables .table-items .table-item .table-body ul li span {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+}
